@@ -48,3 +48,32 @@
 // document.writeln("Score of " + students[2] + " is " + scores[2] + ". Percentage: " + (scores[2] / totalMarks * 100) + "%<br>");
 // 
 // Q.9
+// var color = ["Red","Black","Blue","White","Yellow"];
+
+// document.writeln("Color in The Array.."+ "<br>" + color);
+// A.
+// var userColor = prompt("Kaunsa color aap beginning me add karna chahte hain.");
+
+// alert(userColor)
+// 
+// var colors = ["Red", "Green", "Blue"];
+
+// document.writeln("Initial Colors Array: " + "<br>" + colors + "<br>");
+
+// var userColor = prompt("Which color do you want to add at the beginning?");
+
+// colors.unshift(userColor);
+
+// document.writeln("Updated Colors Array: " + "<br>" + colors);
+// 
+// A.
+
+// var city = ["karachi","lahore","quetta","islamabad","multan" + "<br>" ];
+
+// document.writeln(city);
+
+// var userCity = prompt("Which City do you want to add the begnning " + "<br>" )
+
+
+// city.unshift(userCity)
+// document.writeln("Updated City Array : " + "<br>" + userCity)
