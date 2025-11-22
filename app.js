@@ -52,7 +52,7 @@
 
 // document.writeln("Color in The Array.."+ "<br>" + color);
 // A.
-// var userColor = prompt("Kaunsa color aap beginning me add karna chahte hain.");
+// var userColor = prompt("Konsa color aap beginning me add karna chahte hain.");
 
 // alert(userColor)
 // 
@@ -77,3 +77,58 @@
 
 // city.unshift(userCity)
 // document.writeln("Updated City Array : " + "<br>" + userCity)
+
+// B.
+// var colors = ["Red", "Green", "Blue"];
+
+// document.writeln("Initial Colors Array: " + "<br>" + colors + "<br>");
+
+// var userColor = prompt("Which color do you want to add at the end?");
+
+// colors.push(userColor);
+
+// document.writeln("Updated Colors Array: " + "<br>" + colors);
+// 
+// C.
+// var colors = ["Red", "Green", "Blue"];
+
+// document.writeln("Initial Colors Array: " + "<br>" + colors + "<br>");
+
+// var userColor = prompt("Which color do you want to add at the beginning?");
+
+// colors.unshift(userColor);
+
+// var userColor = prompt("Which color do you want to add at the beginning?");
+
+// colors.unshift(userColor);
+
+// document.writeln("Updated Colors Array: " + "<br>" + colors);
+// 
+// D.
+// var colors = ["Red", "Green", "Blue"];
+
+// document.writeln("Initial Colors Array: " + "<br>" + colors + "<br>");
+ 
+// var userColor = prompt("Which color do you want to Delete at the beginning?");
+
+// colors.shift(userColor);
+
+// document.writeln("Updated Colors Array: " + "<br>" + colors);
+// 
+// E.
+// var colors = ["Pink", "Purple", "Red", "Green", "Blue"];
+
+// colors.pop();
+
+// document.writeln("Updated Colors Array: " + colors);
+// 
+// F.
+// var colors = ["Red", "Green", "Blue"];
+
+// var index = +prompt("Kis index par color add karna hai?");
+
+// var colorName = prompt("Konsa color add karna hai?");
+
+// colors.splice(index, 0, colorName);
+
+// console.log("Updated Colors Array: " + colors);
