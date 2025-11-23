@@ -132,3 +132,16 @@
 // colors.splice(index, 0, colorName);
 
 // console.log("Updated Colors Array: " + colors);
+// 
+// G.
+// var colors = ["Red", "Yellow", "Green", "Blue", "Purple"];
+
+// var index = +prompt("Kis index se colors delete karna hai?");
+
+// var count = +prompt("Kitne colors delete karne hain?");
+
+// colors.splice(index, count);
+
+// console.log("Updated Colors Array: " + colors);
+// 
+// 
