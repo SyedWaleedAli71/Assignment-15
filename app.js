@@ -144,4 +144,59 @@
 
 // console.log("Updated Colors Array: " + colors);
 // 
+// Q.10
+// var scores = [320, 230, 480, 120];
+
+// scores.sort(function(a, b){
+//     return a - b;
+// });
+
+// console.log("Sorted Scores: " + scores);
 // 
+// Q.11
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+
+// var selectedCities = cities.slice(0,3);
+
+// document.writeln("Cities Array : " + cities + "<br>");
+// document.writeln("Selected Cities : "+ selectedCities);
+// 
+// Q.12
+// var arr = ["This ", " is " ,"My" ,"Cat"];
+// var useJoin= arr.join("");
+// document.writeln(useJoin);
+// 
+// Q.13
+// var queue = [];
+
+// queue.push("Apple");
+// queue.push("Mango");
+// queue.push("Banana");
+// queue.push("Banana");
+// queue.push("Banana");
+// queue.shift();
+// queue.shift();
+// document.writeln(queue);
+// 
+// Q.14
+// var queue = [];
+
+// queue.push("Apple");
+// queue.push("Mango");
+// queue.push("Banana");
+// queue.push("Banana");
+// queue.push("Banana");
+// queue.pop();
+// queue.pop();
+// queue.pop();
+// document.writeln(queue);
+// 
+// Q.15
+// var manufacturers = ["Apple","Samsung","Motorola","Nokia","Sony","Hair"];
+
+// document.writeln(manufacturers[0] + "<br>");
+// document.writeln(manufacturers[1] + "<br>");
+// document.writeln(manufacturers[2] + "<br>");
+// document.writeln(manufacturers[3] + "<br>");
+// document.writeln(manufacturers[4] + "<br>");
+// document.writeln(manufacturers[5]);
